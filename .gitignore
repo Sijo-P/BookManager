@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MyCompany.BookManagement.Repository.File/bin/Debug/net6.0
+/MyCompany.BookManagement.Repository.File/obj
+/MyCompany.BookManagement.Service/bin/Debug/net6.0
+/MyCompany.BookManagement.BookManager/.vs
+/MyCompany.BookManagement.BookManager/bin/Debug/net6.0-windows
+/MyCompany.BookManagement.BookManager/obj
+/MyCompany.BookManagement.Domain/bin/Debug/net6.0
+/MyCompany.BookManagement.Domain/obj
+/MyCompany.BookManagement.Repository.Api/bin/Debug/net6.0
+/MyCompany.BookManagement.Repository.Api/obj
+/MyCompany.BookManagement.Service/obj
