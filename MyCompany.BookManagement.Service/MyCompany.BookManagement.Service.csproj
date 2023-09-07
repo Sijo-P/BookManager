@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCompany.BookManagement.Domain\MyCompany.BookManagement.Domain.csproj" />
+    <ProjectReference Include="..\MyCompany.BookManagement.Repository.Api\MyCompany.BookManagement.Repository.Api.csproj" />
+  </ItemGroup>
+
+</Project>

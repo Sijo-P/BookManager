@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <IsPublishable>False</IsPublishable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCompany.BookManagement.Domain\MyCompany.BookManagement.Domain.csproj" />
+    <ProjectReference Include="..\MyCompany.BookManagement.Repository.Api\MyCompany.BookManagement.Repository.Api.csproj" />
+    <ProjectReference Include="..\MyCompany.BookManagement.Repository.File\MyCompany.BookManagement.Repository.File.csproj" />
+    <ProjectReference Include="..\MyCompany.BookManagement.Service\MyCompany.BookManagement.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Books\A Tale of Two Cities - Charles Dickens.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Books\Alices Adventures in Wonderland - Lewis Carroll.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
