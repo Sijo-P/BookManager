@@ -16,6 +16,6 @@ Tools Used:
 
 Note: 
 Improvements are listed as TODOs inline in the code
+I have not added unit testing, although it is possible
+Git hub check in practices ( gitflow) not followed due to time constraints
 
-
-Unit testing is not added but can be done, please let me know.
